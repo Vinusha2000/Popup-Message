@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(219, 241, 237);
+}
+
+.cookie-consent-modal{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(84, 89, 92, 0.589);
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    align-items: flex-end;
+}
+
+.cookie-consent-modal.active{
+    display:flex;
+       
+}
+
+.content{
+    background-color: rgb(154, 184, 199);
+    padding: .2vh 2vw;
+    border-radius: 10px 10px 10px 10px;    
+}
+
+.btns{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3;
+}
+.btn{
+    border: none;
+    outline: none;
+    padding: .8em 1.5em;
+    width: 100px;
+    margin-right: 2em;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+.btn.accept{
+    background-color: rgb(82, 127, 153);
+    color: #fff;
+}
